@@ -21,6 +21,29 @@ public class Hello {
 		mav.setViewName("user");
 		return mav;
 	}
+        @RequestMapping(value = "/singledice")
+	public String singledicePage() {
+		
+		return "singledice";
+	}
+         @RequestMapping(value = "/doubledice")
+	public String doubledicePage() {
+		
+		return "doubledice";
+	}
+         @RequestMapping(value = "/dicepokerbasic")
+	public String dicepokerbasicPage() {
+		
+		return "dicepokerbasic";
+	}
+        @RequestMapping(value = "/dicepokeradvance")
+	public String dicepokeradvancePage() {
+		
+		return "dicepokeradvance";
+	}
+        
+       // @RequestMapping(value = "/ajaxcall")
+	
 	
 	
 }

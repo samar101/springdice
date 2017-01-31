@@ -10,12 +10,16 @@
 	</head>
 	<body>
 		<!-- html -->
-		<div id="statictext" class="pinktext">Static Text</div><br />
+		<!--<div id="statictext" class="pinktext">Static Text</div><br />
 		<div id="message" class="pinktext">${message}</div><br />
 		<div id="testjs" >
 			<button id="testjsbutton">Test JS</button>
 		</div><br />
-		<div><a href="/user">UserPage</a></div>
+		<div><a href="user">UserPage</a></div>-->
+		<div><a href="singledice">Singledicepage</a></div>
+		<div><a href="doubledice">Doubledicepage</a></div>
+		<div><a href="dicepokerbasic">Dice Poker page</a></div>
+		<div><a href="dicepokeradvance">Dice Poker Advance page</a></div>
 		
 		<!-- js -->
 		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
